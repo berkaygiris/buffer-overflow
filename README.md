@@ -7,7 +7,7 @@ This example is prepared to motivate readers to be aware of basic vulnerabilitie
 
 ## Analysis of the program
 
-Let us start by analyzing the assemly of our main program.
+Let us start by analyzing the assembly of our main program.
 ```
 gcc -g main.c 
 gdb a.out
