@@ -8,12 +8,12 @@
  * to the line of code where our function will return
  * we are going to skip some line in the main function. 
  */
-void function(int param1){
-	char buffer1[2];
+void function(int param){
 	int *x;
+	char buffer1[2];
 
-	x = (int *)(buffer1 + 24);
-	(*x) += 4; 
+	x = (int *)(buffer1 + 18);
+	(*x) += 8; 
 }
 
 /**
